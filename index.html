@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myList</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/list.css">
+
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/Logo_white.svg" alt="Logo do site">
+        <button id="add_lista"> <i class="fa-solid fa-plus" style="color: #000000;"></i> Nova Lista</button>
+    </header>
+
+    <div id="list">
+        <div class="head_list">
+            <h2 class="name_list"> Lista 1</h2>
+        </div>
+
+        <div class="add_item">
+            <input class="input_item" classtype="text" placeholder="Digite um item">
+            <button class="btn_add_item"> <i class="fa-solid fa-plus" style="color: #ffffff;"></i> </button>
+        </div>
+
+        <div class="item">
+            <div class="name_item">
+                <input type="radio" class="check" name="item1">
+                <h2> item 1 </h2>
+            </div>
+
+            <div class="options">
+                <button class="edit_item">
+                    <i class="fa-regular fa-pen-to-square" style="color: #000000;"></i>
+                </button>
+                <button class="delete_item">
+                    <i class="fa-solid fa-trash" style="color: #000000;"></i>
+                </button>
+            </div>
+            
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
